@@ -1,0 +1,6 @@
+C:\Users\cdincher\Desktop\ZooTycoon1337\ZooTycoon1337\bin\Debug\ZooTycoon1337.exe.config
+C:\Users\cdincher\Desktop\ZooTycoon1337\ZooTycoon1337\bin\Debug\ZooTycoon1337.exe
+C:\Users\cdincher\Desktop\ZooTycoon1337\ZooTycoon1337\bin\Debug\ZooTycoon1337.pdb
+C:\Users\cdincher\Desktop\ZooTycoon1337\ZooTycoon1337\obj\Debug\ZooTycoon1337.csprojResolveAssemblyReference.cache
+C:\Users\cdincher\Desktop\ZooTycoon1337\ZooTycoon1337\obj\Debug\ZooTycoon1337.exe
+C:\Users\cdincher\Desktop\ZooTycoon1337\ZooTycoon1337\obj\Debug\ZooTycoon1337.pdb
