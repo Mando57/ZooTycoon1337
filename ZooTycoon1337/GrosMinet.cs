@@ -8,26 +8,18 @@ namespace ZooTycoon1337
 {
     class GrosMinet : IAnimal
     {
-        //attribut
-        private string nom;
         //constructeur
-        public GrosMinet(string nom)
+        public GrosMinet(string nom):base(nom)
         {
-            this.nom = nom;
         }
-        //méthodes
-        public string getNom()
+        public override void dormir()
         {
-            return this.nom;
-        }
-        public void dormir()
-        {
-            Console.WriteLine(this.nom + " : Je dors sur le canapé.");
+            Console.WriteLine(getNom() + " : Je dors sur le canapé.");
         }
 
-        public void exprimeToi()
+        public override void exprimeToi()
         {
-            Console.WriteLine(this.nom + ": Miaou");
+            Console.WriteLine(getNom() + ": Miaou");
         }
     }
 }

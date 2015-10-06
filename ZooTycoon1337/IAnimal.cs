@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace ZooTycoon1337
 {
-    public interface IAnimal
+    abstract class  IAnimal
     {
-        string getNom();
-        void dormir();
-        void exprimeToi();
+        private string nom;
+
+        public IAnimal(string n)
+        {
+            this.nom = n;
+        }
+
+        public string getNom()
+        { 
+           return nom;
+        }
+        public abstract void dormir();
+        public abstract void exprimeToi();
     }
 }

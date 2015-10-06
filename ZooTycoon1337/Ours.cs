@@ -8,25 +8,19 @@ namespace ZooTycoon1337
 {
     class Ours : IAnimal
     {
-        //attribut
-        private string nom;
         //constructeur
-        public Ours(string nom)
+        public Ours(string nom):base(nom)
         {
-            this.nom = nom;
         }
         //méthodes
-        public string getNom()
+
+        public override void dormir()
         {
-            return this.nom;
+            Console.WriteLine(getNom() + " : Je dors dans une grotte.");
         }
-        public void dormir()
+        public override void exprimeToi()
         {
-            Console.WriteLine(this.nom + " : Je dors dans une grotte.");
-        }
-        public void exprimeToi()
-        {
-            Console.WriteLine(this.nom + ": Gronde");
+            Console.WriteLine(getNom() + ": Gronde");
         }
     }
 }

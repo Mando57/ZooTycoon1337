@@ -8,25 +8,18 @@ namespace ZooTycoon1337
 {
     class Lion : IAnimal
     {
-        //attribut
-        private string nom;
         //constructeur
-        public Lion(string nom)
+        public Lion(string nom):base(nom)
         {
-            this.nom = nom;
+           
         }
-        // méthodes
-        public string getNom()
+        public override void dormir()
         {
-            return this.nom;
+            Console.WriteLine(getNom() + " : Je dors sur le ventre.");
         }
-        public void dormir()
+        public override void exprimeToi()
         {
-            Console.WriteLine(this.nom + " : Je dors sur le ventre.");
-        }
-        public void exprimeToi()
-        {
-            Console.WriteLine(this.nom + ": ROAR");
+            Console.WriteLine(getNom() + ": ROAR");
         }
     }
 }
